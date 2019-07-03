@@ -1,0 +1,13 @@
+num=int(input(""))
+z=num
+sam=0
+d=0
+while(z!=0):
+    k=z
+    d=k%10
+    sam=sam+pow(d,3)
+    z=z//10    
+if(num==sam):
+    print("yes")
+else:
+    print("no")
