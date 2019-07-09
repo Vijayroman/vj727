@@ -1,0 +1,5 @@
+scr=int(input())
+
+thn=list(map(int,input().split()))
+
+print(min(thn))
